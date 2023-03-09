@@ -1,6 +1,6 @@
 type ValueOrArray<T> = T | Array<ValueOrArray<T>>;
 
-export function nestedSum(arr: Array<ValueOrArray<number>>) {
+export function nestedSum(arr: Array<ValueOrArray<number>>): number {
   let result: number = 0;
 
   for (let i = 0; i < arr.length; i++) {
