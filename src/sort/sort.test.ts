@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 import bubbleSort from "./bubbleSort";
-import insertionSort from "./indertionSort";
+import insertionSort from "./insertionSort";
 
 describe("Sort Array", () => {
   test("bubble sort", () => {
